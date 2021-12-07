@@ -28,7 +28,7 @@ public class OrderControllerInterfaceProxy implements OrderControllerV1 {
     }
 
     @Override
-    public String nolog() {
-        return target.nolog();
+    public String noLog() {
+        return target.noLog();
     }
 }
